@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/googleicon.png">
+</head>
+<body>
+    <nav class="h-[47px] w-full bg-white flex fixed justify-end items-center gap-6 pr-[15px] text-[13px]">
+        <div class="flex gap-4">
+            <a class="hover:underline decoration-1" href="">Gmail</a>
+            <a class="hover:underline decoration-1" href="">Imágenes</a>
+        </div>
+        <div class="flex gap-3">
+            <button type="button" class="h-[40px] w-[40px] hover:bg-zinc-100 rounded-[50%]"><img class="h-[25px] w-[25px] ml-[7px]" src="img/menu.svg" alt="menu"></button>
+            <button type="button" class="h-[40px] w-[40px] hover:bg-zinc-100 rounded-[50%]"><img class="h-[36px] w-[32px] ml-[4px] rounded-[50%]" src="img/perfil.google.png" alt="perfil"></button>
+        </div>
+    </nav>
+    <main class="h-screen flex justify-center items-center flex-col">
+        <form class="flex justify-center items-center flex-col">
+            <img class="w-[272px] h-[92px] mb-[28px] mt-[50px]" src="img/googlelogo.png" alt="Logo Google">
+            <div class="flex justify-center items-center relative ">
+                <input class="w-[390px] sm:w-[580px] md:w-[580px] lg:w-[580px] xl:w-[580px] h-[50px] border-solid border-[1px] rounded-3xl hover:shadow-md shadow-gray-100 px-11 focus:outline-0" type="text">
+                <img class="absolute pr-[15px] right-0" src="img/cámara.png" alt="">
+                <img class="absolute pl-[15px] left-0" src="img/lupa.png" alt="">
+            </div>
+        </form>
+        <section class="flex items-center gap-3 mt-[30px]">
+            <button class="text-[15px] h-[40px] w-[148px] bg-zinc-50 rounded px-2.5 hover:border-[1px]" type="button">Buscar con Google</button>
+            <button class="text-[15px] h-[40px] w-[148px] bg-zinc-50 rounded px-2.5 hover:border-[1px]" type="button">Voy a tener Suerte</button>
+        </section>
+        <section class="text-[13px] flex justify-center gap-2 mt-[25px] mb-[50px]">
+            <p>Ofrecido por Google en:</p>
+            <a class="text-blue-800 hover:underline decoration-1" href="">Español (Latinoamérica)</a>
+        </section>
+        <footer class="w-full text-slate-500 flex flex-col bg-zinc-50 mt-[150px]">
+            <div class="h-[45px] flex justify-star items-center ml-[30px]">
+                <p>Venezuela</p>
+            </div>
+            <div class="text-[14px] h-[80px] sm:h-[45px] md:h-[45px] md:flex-row md:justify-around lg:flex-row lg:h-[45px] lg:justify-between flex justify-center items-center flex-col px-8 border-t gap-2">
+                <section class="flex gap-4 flex-wrap justify-center">
+                    <a class="hover:underline decoration-1" href="">Sobre Google</a>
+                    <a class="hover:underline decoration-1" href="">Publicidad</a>
+                    <a class="hover:underline decoration-1" href="">Negocios</a>
+                    <a class="hover:underline decoration-1" href="">Cómo funciona la Búsqueda</a>
+                </section>
+                <section class="flex gap-6">
+                    <a class="hover:underline decoration-1" href="">Privacidad</a>
+                    <a class="hover:underline decoration-1" href="">Condiciones</a>
+                    <a class="hover:underline decoration-1" href="">Preferencias</a>
+                </section>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
